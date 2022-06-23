@@ -11,8 +11,8 @@
 
 - name: run container
   docker_container:
-    name: wartest
-    image: "{{ IMAGE }}"
+    name: watest
+    image: "{{ image }}"
     ports: 8081:8080
     state: started
  
